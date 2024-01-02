@@ -1,0 +1,12 @@
+{
+  "name": "typescript-features",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc annotations.ts",
+    "test": "node annotations.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
