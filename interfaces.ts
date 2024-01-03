@@ -77,3 +77,19 @@ const printSummary = (item: Reportable) => {
 
 printSummary(drink);
 printSummary(device);
+
+
+// Optional and Strict
+interface InterfacePerson {
+	readonly name: string; // readonly will not let us change value
+	profession: string;
+	age?: number; // adding ? make it optional
+	active?: boolean;
+}
+
+const interfacePerson: InterfacePerson = {
+	name: 'Henry',
+	profession: 'Database Engineer',
+	active: false,
+};
+
