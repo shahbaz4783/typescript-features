@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc interfaces.ts",
-    "test": "node interfaces.js"
+    "start": "tsc classes.ts",
+    "test": "node classes.js"
   },
   "author": "",
   "license": "ISC"
